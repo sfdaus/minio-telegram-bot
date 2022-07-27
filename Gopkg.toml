@@ -23,7 +23,8 @@
 #   non-go = false
 #   go-tests = true
 #   unused-packages = true
-
+[metadata.heroku]
+  root-package = "github.com/sfdaus/minio-telegram-bot"
 
 [[constraint]]
   name = "github.com/caarlos0/env"
